@@ -1,0 +1,16 @@
+*.exe
+*.dll
+*.suo
+*.user
+*.ncb
+*.bak
+bin/*.exp
+bin/*.lib
+src/Win32
+src/x64
+src/*/Win32
+src/*/x64
+src/*/*/Win32
+src/*/*/x64
+poc/*/*/Win32
+poc/*/*/x64

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 4.61 Beta 1 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="toolkit"/>
+    <buildwindow autoclose="1"/>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2012-04-19 11:28" user="marpie" host="SLIDE"/>
+  </section>
+  <section name="files">
+    <file name="src\toolkit.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="6db3f0694d598742314c0f6faca3fd3c"/>
+    </file>
+    <file name="src\tests.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="d9bf8aedaefda20cde7a6b904d23c462"/>
+    </file>
+    <file name="src\version.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="a3e8dafbbe98c11a7cbd792c94887fd4"/>
+    </file>
+    <file name="src\template.pb">
+      <config load="0" scan="0" panel="1" warn="0" lastopen="0" panelstate="++"/>
+    </file>
+    <file name="src\network\tcpip.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="ab07f446bac42fdc6cf9c99e2aabd033"/>
+    </file>
+    <file name="src\tests\network\tests_tcpip.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++++"/>
+      <fingerprint md5="d9e55d80b8cd693227986c20b2ad8ed3"/>
+    </file>
+    <file name="src\lib\iphlpapi.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="cc3f395733192c7515e037041e223119"/>
+    </file>
+    <file name="src\tests\helper.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="0e3b5571ca70303756d0c2ee2c8e3ab6"/>
+    </file>
+    <file name="src\security\rc4_crypto.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="a03704353ad3dc4e28e62112956957a1"/>
+    </file>
+    <file name="src\injector.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="9dbfdb5401984f7286adc9224d4e5e50"/>
+    </file>
+    <file name="src\gen_injector.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="295235cc4c3e190d568c2de75c73f41b"/>
+    </file>
+    <file name="src\include\inc_injector.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="6142544c5e2d46c71eb007729543645d"/>
+    </file>
+    <file name="src\dropper.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="ac0f5d41a678ba950a47cd6beb9458a6"/>
+    </file>
+    <file name="src\hello_world_dll.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="d0721f6e90f6e36401a02f530b66ce3f"/>
+    </file>
+    <file name="src\include\inc_dropper.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="8dc76e007c41f313c3c3887a4d1cc1df"/>
+    </file>
+    <file name="src\dropper_dll.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="5114192aa98ed26791bde6b1e0dad11b"/>
+    </file>
+    <file name="src\gen_dropper.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="25473c244b8f61105ad7dfd462014011"/>
+    </file>
+    <file name="src\core\core.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="8b7cb404a5e0b4cd5862c320a0ff3fd0"/>
+    </file>
+    <file name="src\core\msg_format.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="d815e5c53497320fe7ca68e10153e79a"/>
+    </file>
+    <file name="src\tests\core\tests_core.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++++"/>
+      <fingerprint md5="5bbf78c3eff09c74204b9336ea8cca67"/>
+    </file>
+    <file name="src\tests\core\tests_msg_format.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++++"/>
+      <fingerprint md5="5af005edd674b9985fb05a835a9a35de"/>
+    </file>
+    <file name="src\network\network.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="07604eedd7a2a1247d58b34872e03c62"/>
+    </file>
+    <file name="src\tests\network\tests_network.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++++"/>
+      <fingerprint md5="16a9f429047030529695800ce7c0cac1"/>
+    </file>
+    <file name="src\core\plugins.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="68b89069f9225402c5c529aab35a8d61"/>
+    </file>
+    <file name="src\tests\core\tests_plugins.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++++"/>
+      <fingerprint md5="ffa415502607795ef277c2ec5114ede6"/>
+    </file>
+    <file name="src\loader.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="c1ac8ad533cb88ab4595992b978f55d2"/>
+    </file>
+    <file name="src\filesystem\pefile.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="a606adbd8387c85dcded33454b3ebf63"/>
+    </file>
+    <file name="src\resourceModifier.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="36060e11c98bd4b4e8777c7cdace355b"/>
+    </file>
+    <file name="src\processes\iexplore.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="818ae4a0bf74a1c1cbd21268d3434f83"/>
+    </file>
+    <file name="src\processes\keylogger.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="ff54c58b6ca68543dc424b71973615d5"/>
+    </file>
+    <file name="src\keylogger.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="a478a96a712f5b84ddea9afe21f8d48c"/>
+    </file>
+    <file name="src\lib\user32.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="7c08875ed5f9705a5147029677dd7866"/>
+    </file>
+    <file name="src\core\utils.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="b3fc7aa224e32b71e46c045a8c0bd378"/>
+    </file>
+    <file name="src\filesystem\install.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="29cc13c25aa1d7f659d55412b680c368"/>
+    </file>
+    <file name="src\tests\filesystem\tests_install.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++++"/>
+      <fingerprint md5="61480aa062ef8e794e67ead758b39167"/>
+    </file>
+    <file name="src\core\remoteConsole.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="ce2435fbff157b5a2295dff7e0f9ef7b"/>
+    </file>
+    <file name="src\msgClient.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++"/>
+      <fingerprint md5="6d4d774cb25a9fb6607c6ed417fcf741"/>
+    </file>
+    <file name="src\filesystem\filesystem.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="645188511eb4b95bcdc117987c938224"/>
+    </file>
+    <file name="src\security\aes_encryption.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="97d7128e8137a6cc2bb1c47e6810b5f5"/>
+    </file>
+    <file name="src\security\vm_detection.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="d053d3e0f864722f572e6f881b38b2c1"/>
+    </file>
+    <file name="src\security\vm_detection_loop.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="f372eb5966ac75d6ff9b64fcc005e403"/>
+    </file>
+    <file name="src\lib\kernel32.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="44eaab01c08284b145d3605e8f3f976f"/>
+    </file>
+    <file name="src\lib\psapi.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="a4aaddfaf445cf050daca5bf38eb72ac"/>
+    </file>
+    <file name="src\lib\ntdll.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="de1bb3960e9cbac262ecd7489d8883a5"/>
+    </file>
+    <file name="src\lib\advapi32.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="3a861f91aff26e57f69aa793268bc13e"/>
+    </file>
+    <file name="src\processes\processes.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+++"/>
+      <fingerprint md5="3231a61f3928c5e29460b3f14f46c068"/>
+    </file>
+    <file name="src\tests\processes\tests_processes.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="++++"/>
+      <fingerprint md5="11a6d7dce1a31b8eedd1c95aa6c2bff7"/>
+    </file>
+    <file name="README">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="ed74740ee672ba4c58516ea0212363bd"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="tests_x86-64" enabled="1" default="0">
+      <inputfile value="src\tests.pb"/>
+      <outputfile value="bin\tests_x86-64.exe"/>
+      <compiler version="PureBasic 4.61 Beta 1 (Windows - x64)"/>
+      <executable value="bin\tests_x86-64.exe"/>
+      <directory value="bin\"/>
+      <options thread="1" debug="1"/>
+      <purifier enable="1" granularity="1,1,1,1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="1537"/>
+      <buildcount enable="1" value="238"/>
+    </target>
+    <target name="tests_x86" enabled="1" default="0">
+      <inputfile value="src\tests.pb"/>
+      <outputfile value="bin\tests_x86.exe"/>
+      <compiler version="PureBasic 4.61 Beta 1 (Windows - x86)"/>
+      <executable value="bin\tests_x86.exe"/>
+      <directory value="bin\"/>
+      <options thread="1" debug="1"/>
+      <purifier enable="1" granularity="1,1,4,1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="818"/>
+      <buildcount enable="1" value="226"/>
+    </target>
+    <target name="msgClient_x86-64" enabled="0" default="0">
+      <inputfile value="src\msgClient.pb"/>
+      <outputfile value="bin\msgClient_x86-64.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x64)"/>
+      <executable value="bin\msgClient_x86-64.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1" granularity="1,1,4,1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="68"/>
+      <buildcount enable="1" value="61"/>
+    </target>
+    <target name="msgClient_x86" enabled="0" default="0">
+      <inputfile value="src\msgClient.pb"/>
+      <outputfile value="bin\msgClient_x86.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x86)"/>
+      <executable value="bin\msgClient_x86.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1" granularity="1,1,4,1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="62"/>
+      <buildcount enable="1" value="62"/>
+    </target>
+    <target name="toolkit_dll_x86-64" enabled="0" default="0">
+      <inputfile value="src\toolkit.pb"/>
+      <outputfile value="bin\toolkit_x86-64.dll"/>
+      <compiler version="PureBasic 4.61 Beta 1 (Windows - x64)"/>
+      <executable value="bin\toolkit_x86-64.dll"/>
+      <directory value="bin\"/>
+      <options thread="1" debug="1"/>
+      <purifier enable="1" granularity="1,1,1,1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="16"/>
+      <buildcount enable="1" value="16"/>
+    </target>
+    <target name="toolkit_dll_x86" enabled="0" default="0">
+      <inputfile value="src\toolkit.pb"/>
+      <outputfile value="bin\toolkit_x86.dll"/>
+      <compiler version="PureBasic 4.61 Beta 1 (Windows - x86)"/>
+      <executable value="bin\toolkit_x86.dll"/>
+      <directory value="bin\"/>
+      <options thread="1" debug="1"/>
+      <purifier enable="1" granularity="1,1,1,1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="16"/>
+      <buildcount enable="1" value="16"/>
+    </target>
+    <target name="vmdetection_x86" enabled="0" default="1">
+      <inputfile value="src\security\vm_detection.pbi"/>
+      <outputfile value="bin\vmdetection_x86.exe"/>
+      <compiler version="PureBasic 4.61 Beta 1 (Windows - x86)"/>
+      <executable value="bin\vmdetection_x86.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="2"/>
+      <buildcount enable="1" value="1"/>
+      <constants>
+        <constant value="#VMDETECTION_STANDALONE=#True" enable="1"/>
+      </constants>
+    </target>
+    <target name="keylogger_x86" enabled="0" default="0">
+      <inputfile value="src\keylogger.pb"/>
+      <outputfile value="bin\keylogger_x86.dll"/>
+      <compiler version="PureBasic 4.60 RC 1 (Windows - x86)"/>
+      <executable value="bin\keylogger_x86.dll"/>
+      <directory value="bin\"/>
+      <options thread="1" debug="1"/>
+      <purifier enable="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="82"/>
+      <buildcount enable="1" value="81"/>
+      <versioninfo enable="1">
+        <field0 value="6,1,7600,16450"/>
+        <field1 value="6,1,7600,16450"/>
+        <field2 value="Microsoft Corporation"/>
+        <field3 value="Microsoft® Windows® Operating System"/>
+        <field4 value="6.1.7600.16450"/>
+        <field5 value="6.1.7600.16450 (win7_gdr.091030-1504)"/>
+        <field6 value="Windows Explorer"/>
+        <field7 value="explorer"/>
+        <field8 value="EXPLORER.EXE"/>
+        <field9 value="© Microsoft Corporation. All rights reserved."/>
+      </versioninfo>
+    </target>
+    <target name="keylogger_x86-64" enabled="0" default="0">
+      <inputfile value="src\keylogger.pb"/>
+      <outputfile value="bin\keylogger_x86-64.dll"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x64)"/>
+      <executable value="bin\keylogger_x86-64.dll"/>
+      <directory value="bin\"/>
+      <options thread="1" debug="1"/>
+      <purifier enable="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="65"/>
+      <buildcount enable="1" value="64"/>
+      <versioninfo enable="1">
+        <field0 value="6,1,7600,16450"/>
+        <field1 value="6,1,7600,16450"/>
+        <field2 value="Microsoft Corporation"/>
+        <field3 value="Microsoft® Windows® Operating System"/>
+        <field4 value="6.1.7600.16450"/>
+        <field5 value="6.1.7600.16450 (win7_gdr.091030-1504)"/>
+        <field6 value="Windows Explorer"/>
+        <field7 value="explorer"/>
+        <field8 value="EXPLORER.EXE"/>
+        <field9 value="© Microsoft Corporation. All rights reserved."/>
+      </versioninfo>
+    </target>
+    <target name="resourceModifier" enabled="0" default="0">
+      <inputfile value="src\resourceModifier.pb"/>
+      <outputfile value="bin\resourceModifier.exe"/>
+      <compiler version="PureBasic 4.60 RC 1 (Windows - x86)"/>
+      <executable value="bin\resourceModifier.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="131"/>
+      <buildcount enable="1" value="119"/>
+    </target>
+    <target name="helloWorld_x86" enabled="0" default="0">
+      <inputfile value="src\hello_world.pb"/>
+      <outputfile value="bin\hello_world_x86.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x86)"/>
+      <executable value="bin\hello_world_x86.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1" granularity="1,1,1,1"/>
+      <compilecount enable="1" value="6"/>
+      <buildcount enable="1" value="6"/>
+    </target>
+    <target name="helloWorld_x86-64" enabled="0" default="0">
+      <inputfile value="src\hello_world.pb"/>
+      <outputfile value="bin\hello_world_x86-64.exe"/>
+      <compiler version="PureBasic 4.60 RC 1 (Windows - x64)"/>
+      <executable value="bin\hello_world_x86-64.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1" granularity="1,1,1,1"/>
+      <compilecount enable="1" value="6"/>
+      <buildcount enable="1" value="6"/>
+    </target>
+    <target name="helloWorld_dll_x86" enabled="0" default="0">
+      <inputfile value="src\hello_world_dll.pb"/>
+      <outputfile value="bin\hello_world_x86.dll"/>
+      <compiler version="PureBasic 4.60 RC 1 (Windows - x86)"/>
+      <executable value="bin\hello_world_x86.dll"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1" granularity="1,1,1,1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="50"/>
+      <buildcount enable="1" value="50"/>
+    </target>
+    <target name="helloWorld_dll_x86-64" enabled="0" default="0">
+      <inputfile value="src\hello_world_dll.pb"/>
+      <outputfile value="bin\hello_world_x86-64.dll"/>
+      <compiler version="PureBasic 4.60 RC 1 (Windows - x64)"/>
+      <executable value="bin\hello_world_x86-64.dll"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1" granularity="1,1,1,1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="36"/>
+      <buildcount enable="1" value="36"/>
+    </target>
+    <target name="loader_x86" enabled="0" default="0">
+      <inputfile value="src\loader.pb"/>
+      <outputfile value="bin\loader_x86.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x86)"/>
+      <commandline value="config D:\toolkit_v2\bin\hello_world_x86.dll"/>
+      <executable value="bin\loader_x86.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <icon enable="0">
+        ressources\regedit.ico
+      </icon>
+      <compilecount enable="1" value="141"/>
+      <buildcount enable="1" value="90"/>
+    </target>
+    <target name="loader_x86-64" enabled="0" default="0">
+      <inputfile value="src\loader.pb"/>
+      <outputfile value="bin\loader_x86-64.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x64)"/>
+      <executable value="bin\loader_x86-64.exe"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <icon enable="0">
+        ressources\regedit.ico
+      </icon>
+      <compilecount enable="1" value="15"/>
+      <buildcount enable="1" value="15"/>
+    </target>
+    <target name="gen_injector_x86" enabled="0" default="0">
+      <inputfile value="src\gen_injector.pb"/>
+      <outputfile value="bin\gen_injector_x86.exe"/>
+      <compiler version="PureBasic 4.60 RC 1 (Windows - x86)"/>
+      <executable value="bin\gen_injector_x86.exe"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <icon enable="0">
+        ressources\regedit.ico
+      </icon>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="78"/>
+      <buildcount enable="1" value="78"/>
+    </target>
+    <target name="injector_x86" enabled="0" default="0">
+      <inputfile value="src\injector.pb"/>
+      <outputfile value="bin\injector_x86.exe"/>
+      <compiler version="PureBasic 4.51 (Windows - x86)"/>
+      <executable value="bin\injector_x86.exe"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <icon enable="0">
+        ressources\regedit.ico
+      </icon>
+      <compilecount enable="1" value="95"/>
+      <buildcount enable="1" value="95"/>
+    </target>
+    <target name="injector_x86-64" enabled="0" default="0">
+      <inputfile value="src\injector.pb"/>
+      <outputfile value="bin\injector_x86-64.exe"/>
+      <compiler version="PureBasic 4.60 RC 1 (Windows - x64)"/>
+      <executable value="bin\injector_x86-64.exe"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <icon enable="0">
+        ressources\regedit.ico
+      </icon>
+      <compilecount enable="1" value="74"/>
+      <buildcount enable="1" value="74"/>
+    </target>
+    <target name="gen_dropper_x86" enabled="0" default="0">
+      <inputfile value="src\gen_dropper.pb"/>
+      <outputfile value="bin\gen_dropper_x86.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x86)"/>
+      <executable value="bin\gen_dropper_x86.exe"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <format exe="console" cpu="0"/>
+      <compilecount enable="1" value="128"/>
+      <buildcount enable="1" value="126"/>
+    </target>
+    <target name="dropper_dll_x86" enabled="0" default="0">
+      <inputfile value="src\dropper_dll.pb"/>
+      <outputfile value="bin\dropper_x86.dll"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x86)"/>
+      <executable value="bin\dropper_x86.dll"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="114"/>
+      <buildcount enable="1" value="114"/>
+    </target>
+    <target name="dropper_dll_x86-64" enabled="0" default="0">
+      <inputfile value="src\dropper_dll.pb"/>
+      <outputfile value="bin\dropper_x86-64.dll"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x64)"/>
+      <executable value="bin\dropper_x86-64.dll"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="109"/>
+      <buildcount enable="1" value="109"/>
+    </target>
+    <target name="dropper_x86" enabled="0" default="0">
+      <inputfile value="src\dropper.pb"/>
+      <outputfile value="bin\dropper_x86.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x86)"/>
+      <commandline value="config D:\toolkit_v2\bin\hello_world_x86.dll"/>
+      <executable value="bin\dropper_x86.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <compilecount enable="1" value="227"/>
+      <buildcount enable="1" value="176"/>
+    </target>
+    <target name="dropper_x86-64" enabled="0" default="0">
+      <inputfile value="src\dropper.pb"/>
+      <outputfile value="bin\dropper_x86-64.exe"/>
+      <compiler version="PureBasic 4.60 Beta 3 (Windows - x64)"/>
+      <commandline value="config D:\toolkit_v2\bin\hello_world_x86.dll"/>
+      <executable value="bin\dropper_x86-64.exe"/>
+      <directory value="bin\"/>
+      <options debug="1"/>
+      <purifier enable="1"/>
+      <compilecount enable="1" value="235"/>
+      <buildcount enable="1" value="184"/>
+    </target>
+    <target name="keylogger_x86_exe" enabled="0" default="0">
+      <inputfile value="src\keylogger.pb"/>
+      <outputfile value="bin\keylogger_x86.exe"/>
+      <compiler version="PureBasic 4.61 Beta 1 (Windows - x86)"/>
+      <executable value="bin\keylogger_x86.exe"/>
+      <directory value="bin\"/>
+      <options thread="1" debug="1"/>
+      <purifier enable="1"/>
+      <compilecount enable="1" value="86"/>
+      <buildcount enable="1" value="85"/>
+      <versioninfo enable="1">
+        <field0 value="6,1,7600,16450"/>
+        <field1 value="6,1,7600,16450"/>
+        <field2 value="Microsoft Corporation"/>
+        <field3 value="Microsoft® Windows® Operating System"/>
+        <field4 value="6.1.7600.16450"/>
+        <field5 value="6.1.7600.16450 (win7_gdr.091030-1504)"/>
+        <field6 value="Windows Explorer"/>
+        <field7 value="explorer"/>
+        <field8 value="EXPLORER.EXE"/>
+        <field9 value="© Microsoft Corporation. All rights reserved."/>
+      </versioninfo>
+    </target>
+  </section>
+</project>

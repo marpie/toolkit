@@ -1,0 +1,28 @@
+Common C Types
+-------------------------------------------------------------------------------
+                 Type  Bytes  Bits                Range
+
+            short int    2      16          -16,384 -> +16,383          (16kb)
+   unsigned short int    2      16                0 -> +32,767          (32Kb)
+         unsigned int    4      16                0 -> +4,294,967,295   ( 4Gb)
+                  int    4      32   -2,147,483,648 -> +2,147,483,647   ( 2Gb)
+             long int    4      32   -2,147,483,648 -> +2,147,483,647   ( 2Gb)
+          signed char    1       8             -128 -> +127
+        unsigned char    1       8                0 -> +255
+                float    4      32
+               double    8      64
+          long double   12      96
+-------------------------------------------------------------------------------
+
+Common Windows Types ( regex: typedef.*HANDLE; )
+-------------------------------------------------------------------------------
+BYTE                --> unsigned char
+BOOLEAN             --> BYTE            --> unsigned char
+PVOID               --> void *
+HANDLE              --> PVOID           --> void *
+HINSTANCE           --> void *
+HMODULE             --> HINSTANCE       --> void *
+ULONG               --> unsigned long   --> unsigned int
+USHORT              --> unsigned short
+SIZE_T              --> ULONG_PTR       ==> SizeOf( ULONG ) -> x32 -> 4 | x64 -> 8
+-------------------------------------------------------------------------------
